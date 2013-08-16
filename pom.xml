@@ -103,6 +103,8 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- Kilim -->
 		<dependency>
 			<groupId>kilim</groupId>
 			<artifactId>kilim</artifactId>
