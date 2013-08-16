@@ -15,7 +15,7 @@
 		<!-- Web -->
 		<jsp.version>2.2</jsp.version>
 		<jstl.version>1.2</jstl.version>
-		<servlet.version>2.5</servlet.version>
+		<servlet.version>3.0</servlet.version>
 		
 
 		<!-- Spring -->
@@ -102,6 +102,13 @@
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>kilim</groupId>
+			<artifactId>kilim</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/kilim.jar</systemPath>
 		</dependency>
 
 	</dependencies>	
