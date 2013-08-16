@@ -114,4 +114,35 @@
 		</dependency>
 
 	</dependencies>	
+	
+	<build>
+        <plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2</version>
+				<executions>
+					<execution>
+						<id>kilim-weave</id>
+						<phase>process-classes</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<executable>java</executable>
+					<arguments>
+						<argument>-Dmyproperty=myvalue</argument>
+						<argument>-classpath</argument>
+						<classpath/>
+						<argument>kilim.tools.Weaver</argument>
+						<argument>-d</argument>
+						<argument>${project.build.outputDirectory}</argument>
+						<argument>${project.build.outputDirectory}/com/somewhere</argument>
+					</arguments>
+				</configuration>
+			</plugin>
+        </plugins>
+    </build>
 </project>
