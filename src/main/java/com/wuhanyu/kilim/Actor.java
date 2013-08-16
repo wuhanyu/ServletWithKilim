@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 public class Actor extends HttpServlet {
 
 
@@ -20,8 +21,8 @@ public class Actor extends HttpServlet {
         new Task(){
             public  void execute() throws Pausable, Exception {
                 try {
-                    Thread.sleep(3000);
-                } catch (InterruptedException e) {
+                    Task.sleep(3000);
+                } catch (Exception e) {
                 }finally{
                     ac.complete();
                 }

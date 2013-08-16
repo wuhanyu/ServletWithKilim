@@ -41,8 +41,13 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
     
     <servlet>
         <servlet-name>kilim</servlet-name>
-        <servlet-class>com.wuhanyu.kilim</servlet-class>
+        <servlet-class>com.wuhanyu.kilim.Actor</servlet-class>
         <async-supported>true</async-supported>
     </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>kilim</servlet-name>
+        <url-pattern>/kilim</url-pattern>
+    </servlet-mapping>
 
 </web-app>

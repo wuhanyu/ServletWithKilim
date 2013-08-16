@@ -110,7 +110,7 @@
 			<artifactId>kilim</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/kilim.jar</systemPath>
+			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/kilim.jar</systemPath>
 		</dependency>
 
 	</dependencies>	
