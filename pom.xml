@@ -4,11 +4,11 @@
   <artifactId>servletcoroutine</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  
     <properties>
 
 		<!-- Generic properties -->
 		<java.version>1.6</java.version>
+        <jdk.version>1.6</jdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		
@@ -115,34 +115,43 @@
 
 	</dependencies>	
 	
-	<build>
+    <build>
         <plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.2</version>
-				<executions>
-					<execution>
-						<id>kilim-weave</id>
-						<phase>process-classes</phase>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<executable>java</executable>
-					<arguments>
-						<argument>-Dmyproperty=myvalue</argument>
-						<argument>-classpath</argument>
-						<classpath/>
-						<argument>kilim.tools.Weaver</argument>
-						<argument>-d</argument>
-						<argument>${project.build.outputDirectory}</argument>
-						<argument>${project.build.outputDirectory}/com/somewhere</argument>
-					</arguments>
-				</configuration>
-			</plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+
+                <executions>
+                    <execution>
+                        <id>kilim-weave</id>
+                        <phase>process-classes</phase>
+
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <executable>java</executable>
+                    <arguments>
+                        <argument>-cp</argument>
+                        <argument>lib/kilim.jar;lib/asm-all-4.1.jar</argument>
+                        <argument>kilim.tools.Weaver</argument>
+                        <argument>-d</argument>
+                        <argument>${project.build.outputDirectory}</argument>
+                        <argument>${project.build.outputDirectory}</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
