@@ -6,12 +6,10 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Welcome</title>
-	</head> 
-	<body>
-		<c:url value="/showMessage.html" var="messageUrl" />
-		<a href="${messageUrl}">Click to enter</a>
-	</body>
+<head>
+    <title>Spring 3.0 MVC Series: Index - ViralPatel.net</title>
+</head>
+<body>
+    <a href="hello.html">Say Hello</a>
+</body>
 </html>

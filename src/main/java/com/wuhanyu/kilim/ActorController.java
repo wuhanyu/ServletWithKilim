@@ -3,18 +3,23 @@ package com.wuhanyu.kilim;
 
 import kilim.Pausable;
 import kilim.Task;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.AsyncContext;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+@Controller
+@RequestMapping("/kilim")
+public class ActorController{
 
-public class Actor extends HttpServlet {
-
-
+	@RequestMapping(method = RequestMethod.GET)
     public void doGet(final HttpServletRequest request, final HttpServletResponse response) throws javax.servlet.ServletException, java.io.IOException {
         final AsyncContext ac = request.startAsync(request, response);
 
@@ -23,6 +28,7 @@ public class Actor extends HttpServlet {
                 try {
                     Task.sleep(3000);
                 } catch (Exception e) {
+                	log.error("io error", e);
                 }finally{
                     ac.complete();
                 }
@@ -34,7 +40,7 @@ public class Actor extends HttpServlet {
         doGet(req,resp);
     }
 
-    public static Logger log = LoggerFactory.getLogger(Actor.class);
+    public static Logger log = LoggerFactory.getLogger(ActorController.class);
 
 }
 

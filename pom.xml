@@ -112,9 +112,8 @@
 			<scope>system</scope>
 			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/kilim.jar</systemPath>
 		</dependency>
-
 	</dependencies>	
-	
+
     <build>
         <plugins>
             <plugin>
