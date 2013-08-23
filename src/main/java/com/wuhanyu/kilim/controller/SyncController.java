@@ -1,4 +1,4 @@
-package com.wuhanyu.kilim;
+package com.wuhanyu.kilim.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,11 +18,12 @@ import java.io.PrintWriter;
 @RequestMapping("/sync")
 public class SyncController extends HttpServlet {
     public static Logger log = LoggerFactory.getLogger(SyncController.class);
-
+    static int count;
     @RequestMapping(method = RequestMethod.GET)
     public void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
         try {
             Thread.sleep(3000);
+            System.out.println("sync" + (++count));
         } catch (InterruptedException e) {
             log.error("io error", e);
         }

@@ -1,4 +1,4 @@
-package com.wuhanyu.kilim;
+package com.wuhanyu.kilim.controller;
 
 
 import kilim.Pausable;
@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 @RequestMapping("/kilim")
 public class ActorController{
+	static int count = 0;
 	@RequestMapping(method = RequestMethod.GET)
     public void doGet(final HttpServletRequest request, final HttpServletResponse response) throws javax.servlet.ServletException, java.io.IOException {
         final AsyncContext ac = request.startAsync(request, response);
@@ -27,6 +28,7 @@ public class ActorController{
             public  void execute() throws Pausable, Exception {
                 try {
                     Task.sleep(3000);
+                    System.out.println("kilim" + (++count));
                 } catch (Exception e) {
                 	log.error("io error", e);
                 }finally{
