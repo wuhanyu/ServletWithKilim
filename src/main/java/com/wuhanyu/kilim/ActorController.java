@@ -6,6 +6,7 @@ import kilim.Task;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,7 +19,6 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 @RequestMapping("/kilim")
 public class ActorController{
-
 	@RequestMapping(method = RequestMethod.GET)
     public void doGet(final HttpServletRequest request, final HttpServletResponse response) throws javax.servlet.ServletException, java.io.IOException {
         final AsyncContext ac = request.startAsync(request, response);

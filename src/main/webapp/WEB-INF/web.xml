@@ -11,10 +11,12 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
         <servlet-name>spring</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
+        <async-supported>true</async-supported>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>spring</servlet-name>
         <url-pattern>*.html</url-pattern>
     </servlet-mapping>
+    
 </web-app>
