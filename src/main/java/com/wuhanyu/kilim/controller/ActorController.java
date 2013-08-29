@@ -27,7 +27,11 @@ public class ActorController{
         new Task(){
             public  void execute() throws Pausable, Exception {
                 try {
-                    Task.sleep(3000);
+                	String timestr = request.getParameter("sleeptime");
+                	int time;
+                	if (timestr == null) time = 1000;
+                	else time = Integer.parseInt(timestr);
+                    Task.sleep(time);
                     System.out.println("kilim" + (++count));
                 } catch (Exception e) {
                 	log.error("io error", e);

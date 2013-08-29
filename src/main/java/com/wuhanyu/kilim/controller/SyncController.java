@@ -22,7 +22,11 @@ public class SyncController extends HttpServlet {
     @RequestMapping(method = RequestMethod.GET)
     public void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
         try {
-            Thread.sleep(3000);
+        	String timestr = req.getParameter("sleeptime");
+        	int time;
+        	if (timestr == null) time = 1000;
+        	else time = Integer.parseInt(timestr);
+            Thread.sleep(time);
             System.out.println("sync" + (++count));
         } catch (InterruptedException e) {
             log.error("io error", e);
