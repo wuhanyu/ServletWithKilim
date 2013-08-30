@@ -1,0 +1,5160 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   5.116 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    977.33 [#/sec] (mean)
+Time per request:       102.320 [ms] (mean)
+Time per request:       1.023 [ms] (mean, across all concurrent requests)
+Transfer rate:          115.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  101   2.7    101     126
+Waiting:      100  101   2.6    101     126
+Total:        100  102   2.7    101     126
+
+Percentage of the requests served within a certain time (ms)
+  50%    101
+  66%    101
+  75%    101
+  80%    102
+  90%    103
+  95%    106
+  98%    112
+  99%    116
+ 100%    126 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   5.114 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    977.71 [#/sec] (mean)
+Time per request:       102.280 [ms] (mean)
+Time per request:       1.023 [ms] (mean, across all concurrent requests)
+Transfer rate:          97.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  101   1.8    101     114
+Waiting:      100  101   1.5    101     113
+Total:        100  101   1.8    101     114
+
+Percentage of the requests served within a certain time (ms)
+  50%    101
+  66%    101
+  75%    101
+  80%    102
+  90%    103
+  95%    104
+  98%    107
+  99%    112
+ 100%    114 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   10.112 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    494.46 [#/sec] (mean)
+Time per request:       202.240 [ms] (mean)
+Time per request:       2.022 [ms] (mean, across all concurrent requests)
+Transfer rate:          58.43 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  201   1.8    201     218
+Waiting:      200  201   1.6    201     217
+Total:        200  202   1.8    201     218
+
+Percentage of the requests served within a certain time (ms)
+  50%    201
+  66%    202
+  75%    202
+  80%    202
+  90%    203
+  95%    204
+  98%    208
+  99%    209
+ 100%    218 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   10.122 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    493.97 [#/sec] (mean)
+Time per request:       202.440 [ms] (mean)
+Time per request:       2.024 [ms] (mean, across all concurrent requests)
+Transfer rate:          49.20 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  202   2.5    201     218
+Waiting:      200  201   2.3    201     217
+Total:        200  202   2.5    201     218
+
+Percentage of the requests served within a certain time (ms)
+  50%    201
+  66%    201
+  75%    202
+  80%    202
+  90%    204
+  95%    208
+  98%    211
+  99%    213
+ 100%    218 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   25.105 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    199.16 [#/sec] (mean)
+Time per request:       502.100 [ms] (mean)
+Time per request:       5.021 [ms] (mean, across all concurrent requests)
+Transfer rate:          23.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       4
+Processing:   500  501   2.9    501     533
+Waiting:      500  501   2.7    501     533
+Total:        500  501   2.9    501     533
+
+Percentage of the requests served within a certain time (ms)
+  50%    501
+  66%    501
+  75%    501
+  80%    502
+  90%    502
+  95%    505
+  98%    514
+  99%    516
+ 100%    533 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   25.228 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    198.19 [#/sec] (mean)
+Time per request:       504.560 [ms] (mean)
+Time per request:       5.046 [ms] (mean, across all concurrent requests)
+Transfer rate:          19.74 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.4      0       1
+Processing:   500  503   4.8    501     533
+Waiting:      500  503   4.6    501     533
+Total:        500  503   4.8    501     533
+
+Percentage of the requests served within a certain time (ms)
+  50%    501
+  66%    501
+  75%    502
+  80%    503
+  90%    511
+  95%    514
+  98%    519
+  99%    521
+ 100%    533 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   50.127 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    99.75 [#/sec] (mean)
+Time per request:       1002.540 [ms] (mean)
+Time per request:       10.025 [ms] (mean, across all concurrent requests)
+Transfer rate:          11.79 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1002   2.5   1001    1025
+Waiting:     1000 1001   2.4   1001    1024
+Total:       1000 1002   2.5   1001    1025
+
+Percentage of the requests served within a certain time (ms)
+  50%   1001
+  66%   1002
+  75%   1002
+  80%   1002
+  90%   1003
+  95%   1006
+  98%   1012
+  99%   1014
+ 100%   1025 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   50.305 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    99.39 [#/sec] (mean)
+Time per request:       1006.100 [ms] (mean)
+Time per request:       10.061 [ms] (mean, across all concurrent requests)
+Transfer rate:          9.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1004   4.8   1001    1031
+Waiting:     1000 1003   4.7   1001    1029
+Total:       1000 1004   4.8   1002    1031
+
+Percentage of the requests served within a certain time (ms)
+  50%   1002
+  66%   1002
+  75%   1004
+  80%   1006
+  90%   1011
+  95%   1014
+  98%   1019
+  99%   1023
+ 100%   1031 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   100.119 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    49.94 [#/sec] (mean)
+Time per request:       2002.370 [ms] (mean)
+Time per request:       20.024 [ms] (mean, across all concurrent requests)
+Transfer rate:          5.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  2000 2002   2.5   2001    2024
+Waiting:     2000 2001   2.4   2001    2024
+Total:       2000 2002   2.5   2001    2024
+
+Percentage of the requests served within a certain time (ms)
+  50%   2001
+  66%   2001
+  75%   2002
+  80%   2002
+  90%   2003
+  95%   2006
+  98%   2010
+  99%   2015
+ 100%   2024 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   100.565 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    49.72 [#/sec] (mean)
+Time per request:       2011.301 [ms] (mean)
+Time per request:       20.113 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.95 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1999 2007   8.5   2002    2040
+Waiting:     1999 2006   8.4   2001    2040
+Total:       1999 2007   8.5   2002    2040
+
+Percentage of the requests served within a certain time (ms)
+  50%   2002
+  66%   2007
+  75%   2010
+  80%   2012
+  90%   2019
+  95%   2026
+  98%   2032
+  99%   2034
+ 100%   2040 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   150.151 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    33.30 [#/sec] (mean)
+Time per request:       3003.020 [ms] (mean)
+Time per request:       30.030 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3002   3.4   3001    3039
+Waiting:     3000 3002   3.3   3001    3039
+Total:       3000 3002   3.4   3001    3039
+
+Percentage of the requests served within a certain time (ms)
+  50%   3001
+  66%   3001
+  75%   3002
+  80%   3002
+  90%   3004
+  95%   3007
+  98%   3014
+  99%   3021
+ 100%   3039 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   150.182 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    33.29 [#/sec] (mean)
+Time per request:       3003.640 [ms] (mean)
+Time per request:       30.036 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  2999 3002   2.7   3001    3019
+Waiting:     2999 3002   2.7   3001    3018
+Total:       2999 3002   2.7   3001    3019
+
+Percentage of the requests served within a certain time (ms)
+  50%   3001
+  66%   3002
+  75%   3002
+  80%   3003
+  90%   3006
+  95%   3008
+  98%   3011
+  99%   3012
+ 100%   3019 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   2.587 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1932.55 [#/sec] (mean)
+Time per request:       103.490 [ms] (mean)
+Time per request:       0.517 [ms] (mean, across all concurrent requests)
+Transfer rate:          228.36 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  102   2.8    101     125
+Waiting:      100  101   2.7    101     125
+Total:        100  102   2.8    101     125
+
+Percentage of the requests served within a certain time (ms)
+  50%    101
+  66%    101
+  75%    102
+  80%    102
+  90%    103
+  95%    105
+  98%    113
+  99%    117
+ 100%    125 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   3.521 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1419.91 [#/sec] (mean)
+Time per request:       140.854 [ms] (mean)
+Time per request:       0.704 [ms] (mean, across all concurrent requests)
+Transfer rate:          141.44 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  137  17.9    138     214
+Waiting:      100  136  17.8    137     214
+Total:        100  137  17.9    138     214
+
+Percentage of the requests served within a certain time (ms)
+  50%    138
+  66%    143
+  75%    147
+  80%    149
+  90%    156
+  95%    167
+  98%    180
+  99%    191
+ 100%    214 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   5.119 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    976.85 [#/sec] (mean)
+Time per request:       204.740 [ms] (mean)
+Time per request:       1.024 [ms] (mean, across all concurrent requests)
+Transfer rate:          115.43 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       3
+Processing:   200  203   5.1    201     242
+Waiting:      200  202   4.9    201     242
+Total:        200  203   5.1    201     242
+
+Percentage of the requests served within a certain time (ms)
+  50%    201
+  66%    202
+  75%    202
+  80%    203
+  90%    207
+  95%    214
+  98%    222
+  99%    226
+ 100%    242 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   5.996 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    833.95 [#/sec] (mean)
+Time per request:       239.824 [ms] (mean)
+Time per request:       1.199 [ms] (mean, across all concurrent requests)
+Transfer rate:          83.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  236  15.8    237     287
+Waiting:      200  235  15.8    236     286
+Total:        200  236  15.8    237     287
+
+Percentage of the requests served within a certain time (ms)
+  50%    237
+  66%    242
+  75%    245
+  80%    248
+  90%    254
+  95%    260
+  98%    270
+  99%    273
+ 100%    287 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   12.617 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    396.28 [#/sec] (mean)
+Time per request:       504.690 [ms] (mean)
+Time per request:       2.523 [ms] (mean, across all concurrent requests)
+Transfer rate:          46.83 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   500  503   4.6    501     536
+Waiting:      500  502   4.4    501     535
+Total:        500  503   4.6    501     536
+
+Percentage of the requests served within a certain time (ms)
+  50%    501
+  66%    502
+  75%    502
+  80%    503
+  90%    507
+  95%    511
+  98%    520
+  99%    526
+ 100%    536 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   13.295 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    376.07 [#/sec] (mean)
+Time per request:       531.813 [ms] (mean)
+Time per request:       2.659 [ms] (mean, across all concurrent requests)
+Transfer rate:          37.46 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   499  521  17.4    521     586
+Waiting:      499  520  17.3    520     585
+Total:        499  521  17.4    521     586
+
+Percentage of the requests served within a certain time (ms)
+  50%    521
+  66%    529
+  75%    532
+  80%    535
+  90%    546
+  95%    549
+  98%    559
+  99%    567
+ 100%    586 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   25.107 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    199.15 [#/sec] (mean)
+Time per request:       1004.260 [ms] (mean)
+Time per request:       5.021 [ms] (mean, across all concurrent requests)
+Transfer rate:          23.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1003   4.7   1001    1037
+Waiting:     1000 1002   4.6   1001    1036
+Total:       1000 1003   4.7   1001    1037
+
+Percentage of the requests served within a certain time (ms)
+  50%   1001
+  66%   1002
+  75%   1002
+  80%   1003
+  90%   1006
+  95%   1013
+  98%   1020
+  99%   1027
+ 100%   1037 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   25.715 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    194.44 [#/sec] (mean)
+Time per request:       1028.583 [ms] (mean)
+Time per request:       5.143 [ms] (mean, across all concurrent requests)
+Transfer rate:          19.37 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   999 1017  16.0   1016    1069
+Waiting:      999 1017  15.9   1015    1068
+Total:        999 1017  16.0   1016    1069
+
+Percentage of the requests served within a certain time (ms)
+  50%   1016
+  66%   1023
+  75%   1027
+  80%   1031
+  90%   1040
+  95%   1049
+  98%   1055
+  99%   1057
+ 100%   1069 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   50.112 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    99.78 [#/sec] (mean)
+Time per request:       2004.480 [ms] (mean)
+Time per request:       10.022 [ms] (mean, across all concurrent requests)
+Transfer rate:          11.79 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  2000 2002   3.7   2001    2026
+Waiting:     2000 2002   3.4   2001    2025
+Total:       2000 2003   3.7   2001    2026
+
+Percentage of the requests served within a certain time (ms)
+  50%   2001
+  66%   2002
+  75%   2002
+  80%   2003
+  90%   2006
+  95%   2012
+  98%   2015
+  99%   2018
+ 100%   2026 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   50.198 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    99.61 [#/sec] (mean)
+Time per request:       2007.918 [ms] (mean)
+Time per request:       10.040 [ms] (mean, across all concurrent requests)
+Transfer rate:          9.92 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1999 2004   6.0   2001    2040
+Waiting:     1999 2004   5.8   2001    2038
+Total:       1999 2004   6.0   2001    2040
+
+Percentage of the requests served within a certain time (ms)
+  50%   2001
+  66%   2002
+  75%   2004
+  80%   2007
+  90%   2013
+  95%   2017
+  98%   2023
+  99%   2028
+ 100%   2040 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   75.105 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    66.57 [#/sec] (mean)
+Time per request:       3004.200 [ms] (mean)
+Time per request:       15.021 [ms] (mean, across all concurrent requests)
+Transfer rate:          7.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3002   4.1   3001    3035
+Waiting:     3000 3002   4.0   3001    3035
+Total:       3000 3002   4.1   3001    3035
+
+Percentage of the requests served within a certain time (ms)
+  50%   3001
+  66%   3002
+  75%   3002
+  80%   3002
+  90%   3004
+  95%   3010
+  98%   3016
+  99%   3025
+ 100%   3035 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      200
+Time taken for tests:   75.751 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    66.01 [#/sec] (mean)
+Time per request:       3030.040 [ms] (mean)
+Time per request:       15.150 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3018  16.3   3018    3061
+Waiting:     3000 3018  16.2   3017    3061
+Total:       3000 3018  16.3   3018    3061
+
+Percentage of the requests served within a certain time (ms)
+  50%   3018
+  66%   3027
+  75%   3030
+  80%   3033
+  90%   3043
+  95%   3049
+  98%   3054
+  99%   3055
+ 100%   3061 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   1.802 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2774.69 [#/sec] (mean)
+Time per request:       108.120 [ms] (mean)
+Time per request:       0.360 [ms] (mean, across all concurrent requests)
+Transfer rate:          327.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       1
+Processing:   100  104   9.3    101     163
+Waiting:      100  103   9.1    101     163
+Total:        100  104   9.3    101     163
+
+Percentage of the requests served within a certain time (ms)
+  50%    101
+  66%    102
+  75%    102
+  80%    103
+  90%    110
+  95%    121
+  98%    143
+  99%    150
+ 100%    163 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   2.029 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2464.27 [#/sec] (mean)
+Time per request:       121.740 [ms] (mean)
+Time per request:       0.406 [ms] (mean, across all concurrent requests)
+Transfer rate:          245.46 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  117  12.4    119     157
+Waiting:      100  116  12.2    118     156
+Total:        100  117  12.5    119     157
+
+Percentage of the requests served within a certain time (ms)
+  50%    119
+  66%    125
+  75%    127
+  80%    130
+  90%    133
+  95%    135
+  98%    138
+  99%    138
+ 100%    157 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   3.596 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1390.43 [#/sec] (mean)
+Time per request:       215.760 [ms] (mean)
+Time per request:       0.719 [ms] (mean, across all concurrent requests)
+Transfer rate:          164.30 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  207  16.9    202     312
+Waiting:      200  207  16.9    201     311
+Total:        200  207  16.9    202     312
+
+Percentage of the requests served within a certain time (ms)
+  50%    202
+  66%    202
+  75%    203
+  80%    205
+  90%    217
+  95%    244
+  98%    279
+  99%    294
+ 100%    312 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   3.953 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1264.86 [#/sec] (mean)
+Time per request:       237.180 [ms] (mean)
+Time per request:       0.791 [ms] (mean, across all concurrent requests)
+Transfer rate:          125.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       4
+Processing:   200  232  26.2    227     342
+Waiting:      200  231  25.7    226     336
+Total:        200  232  26.2    227     342
+
+Percentage of the requests served within a certain time (ms)
+  50%    227
+  66%    234
+  75%    241
+  80%    249
+  90%    274
+  95%    289
+  98%    300
+  99%    303
+ 100%    342 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   8.610 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    580.72 [#/sec] (mean)
+Time per request:       516.600 [ms] (mean)
+Time per request:       1.722 [ms] (mean, across all concurrent requests)
+Transfer rate:          68.62 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       3
+Processing:   500  505  12.0    501     584
+Waiting:      500  505  12.0    501     584
+Total:        500  505  12.0    501     584
+
+Percentage of the requests served within a certain time (ms)
+  50%    501
+  66%    502
+  75%    503
+  80%    504
+  90%    513
+  95%    534
+  98%    555
+  99%    561
+ 100%    584 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   8.650 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    578.03 [#/sec] (mean)
+Time per request:       519.000 [ms] (mean)
+Time per request:       1.730 [ms] (mean, across all concurrent requests)
+Transfer rate:          57.58 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       6
+Processing:   500  507  10.1    503     565
+Waiting:      500  506   8.8    502     560
+Total:        500  507  10.1    503     565
+
+Percentage of the requests served within a certain time (ms)
+  50%    503
+  66%    505
+  75%    507
+  80%    510
+  90%    520
+  95%    537
+  98%    540
+  99%    541
+ 100%    565 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   17.104 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    292.33 [#/sec] (mean)
+Time per request:       1026.240 [ms] (mean)
+Time per request:       3.421 [ms] (mean, across all concurrent requests)
+Transfer rate:          34.54 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1004   6.5   1002    1049
+Waiting:     1000 1003   6.2   1001    1048
+Total:       1000 1004   6.5   1002    1049
+
+Percentage of the requests served within a certain time (ms)
+  50%   1002
+  66%   1003
+  75%   1004
+  80%   1004
+  90%   1008
+  95%   1017
+  98%   1029
+  99%   1037
+ 100%   1049 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   17.158 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    291.41 [#/sec] (mean)
+Time per request:       1029.480 [ms] (mean)
+Time per request:       3.432 [ms] (mean, across all concurrent requests)
+Transfer rate:          29.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1006   7.7   1002    1045
+Waiting:     1000 1005   6.9   1001    1041
+Total:       1000 1006   7.7   1002    1045
+
+Percentage of the requests served within a certain time (ms)
+  50%   1002
+  66%   1004
+  75%   1009
+  80%   1012
+  90%   1018
+  95%   1024
+  98%   1028
+  99%   1029
+ 100%   1045 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   34.138 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    146.46 [#/sec] (mean)
+Time per request:       2048.280 [ms] (mean)
+Time per request:       6.828 [ms] (mean, across all concurrent requests)
+Transfer rate:          17.31 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  2000 2005  10.0   2002    2078
+Waiting:     2000 2005   9.7   2001    2075
+Total:       2000 2005  10.0   2002    2078
+
+Percentage of the requests served within a certain time (ms)
+  50%   2002
+  66%   2003
+  75%   2004
+  80%   2005
+  90%   2015
+  95%   2033
+  98%   2041
+  99%   2045
+ 100%   2078 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   34.380 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    145.43 [#/sec] (mean)
+Time per request:       2062.800 [ms] (mean)
+Time per request:       6.876 [ms] (mean, across all concurrent requests)
+Transfer rate:          14.49 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       2
+Processing:  2000 2013  14.2   2003    2061
+Waiting:     2000 2012  13.3   2002    2058
+Total:       2000 2013  14.2   2003    2061
+
+Percentage of the requests served within a certain time (ms)
+  50%   2003
+  66%   2019
+  75%   2026
+  80%   2028
+  90%   2035
+  95%   2039
+  98%   2043
+  99%   2044
+ 100%   2061 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   51.122 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    97.81 [#/sec] (mean)
+Time per request:       3067.320 [ms] (mean)
+Time per request:       10.224 [ms] (mean, across all concurrent requests)
+Transfer rate:          11.56 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3004   5.7   3002    3036
+Waiting:     3000 3004   5.0   3002    3030
+Total:       3000 3005   5.7   3002    3036
+
+Percentage of the requests served within a certain time (ms)
+  50%   3002
+  66%   3003
+  75%   3005
+  80%   3006
+  90%   3012
+  95%   3018
+  98%   3023
+  99%   3027
+ 100%   3036 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      300
+Time taken for tests:   51.287 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    97.49 [#/sec] (mean)
+Time per request:       3077.220 [ms] (mean)
+Time per request:       10.257 [ms] (mean, across all concurrent requests)
+Transfer rate:          9.71 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3010  11.3   3002    3045
+Waiting:     3000 3009  10.7   3002    3043
+Total:       3000 3010  11.3   3002    3045
+
+Percentage of the requests served within a certain time (ms)
+  50%   3002
+  66%   3019
+  75%   3023
+  80%   3024
+  90%   3027
+  95%   3028
+  98%   3030
+  99%   3030
+ 100%   3045 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   1.483 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    3371.54 [#/sec] (mean)
+Time per request:       118.640 [ms] (mean)
+Time per request:       0.297 [ms] (mean, across all concurrent requests)
+Transfer rate:          398.40 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       1
+Processing:   100  112  28.4    102     279
+Waiting:      100  111  28.0    101     274
+Total:        100  112  28.4    102     279
+
+Percentage of the requests served within a certain time (ms)
+  50%    102
+  66%    103
+  75%    104
+  80%    106
+  90%    122
+  95%    207
+  98%    209
+  99%    212
+ 100%    279 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   1.443 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    3465.00 [#/sec] (mean)
+Time per request:       115.440 [ms] (mean)
+Time per request:       0.289 [ms] (mean, across all concurrent requests)
+Transfer rate:          345.15 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  109  11.0    103     144
+Waiting:      100  108  10.2    102     140
+Total:        100  109  11.0    103     144
+
+Percentage of the requests served within a certain time (ms)
+  50%    103
+  66%    111
+  75%    117
+  80%    119
+  90%    126
+  95%    134
+  98%    139
+  99%    139
+ 100%    144 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   2.691 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1858.05 [#/sec] (mean)
+Time per request:       215.280 [ms] (mean)
+Time per request:       0.538 [ms] (mean, across all concurrent requests)
+Transfer rate:          219.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  205   6.0    203     244
+Waiting:      200  204   5.5    202     243
+Total:        200  205   6.0    203     244
+
+Percentage of the requests served within a certain time (ms)
+  50%    203
+  66%    204
+  75%    207
+  80%    208
+  90%    211
+  95%    217
+  98%    224
+  99%    236
+ 100%    244 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   2.703 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1849.80 [#/sec] (mean)
+Time per request:       216.240 [ms] (mean)
+Time per request:       0.541 [ms] (mean, across all concurrent requests)
+Transfer rate:          184.26 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  207   8.3    203     236
+Waiting:      200  206   7.7    202     234
+Total:        200  207   8.3    203     236
+
+Percentage of the requests served within a certain time (ms)
+  50%    203
+  66%    207
+  75%    211
+  80%    214
+  90%    220
+  95%    227
+  98%    231
+  99%    233
+ 100%    236 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   6.613 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    756.09 [#/sec] (mean)
+Time per request:       529.040 [ms] (mean)
+Time per request:       1.323 [ms] (mean, across all concurrent requests)
+Transfer rate:          89.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   500  506   9.1    503     545
+Waiting:      500  505   7.9    502     539
+Total:        500  506   9.1    503     545
+
+Percentage of the requests served within a certain time (ms)
+  50%    503
+  66%    504
+  75%    505
+  80%    507
+  90%    524
+  95%    529
+  98%    536
+  99%    538
+ 100%    545 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   6.624 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    754.83 [#/sec] (mean)
+Time per request:       529.920 [ms] (mean)
+Time per request:       1.325 [ms] (mean, across all concurrent requests)
+Transfer rate:          75.19 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   500  507   7.6    504     533
+Waiting:      500  506   7.1    503     531
+Total:        500  507   7.6    504     533
+
+Percentage of the requests served within a certain time (ms)
+  50%    504
+  66%    508
+  75%    512
+  80%    514
+  90%    520
+  95%    523
+  98%    528
+  99%    529
+ 100%    533 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   13.099 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    381.71 [#/sec] (mean)
+Time per request:       1047.920 [ms] (mean)
+Time per request:       2.620 [ms] (mean, across all concurrent requests)
+Transfer rate:          45.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1006  12.5   1002    1113
+Waiting:     1000 1005  11.9   1002    1111
+Total:       1000 1006  12.5   1002    1113
+
+Percentage of the requests served within a certain time (ms)
+  50%   1002
+  66%   1003
+  75%   1004
+  80%   1005
+  90%   1012
+  95%   1033
+  98%   1038
+  99%   1042
+ 100%   1113 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   13.510 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    370.10 [#/sec] (mean)
+Time per request:       1080.800 [ms] (mean)
+Time per request:       2.702 [ms] (mean, across all concurrent requests)
+Transfer rate:          36.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1027  22.0   1031    1082
+Waiting:     1000 1025  21.1   1029    1081
+Total:       1000 1027  22.0   1032    1082
+
+Percentage of the requests served within a certain time (ms)
+  50%   1032
+  66%   1040
+  75%   1046
+  80%   1047
+  90%   1054
+  95%   1060
+  98%   1074
+  99%   1076
+ 100%   1082 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   26.105 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    191.53 [#/sec] (mean)
+Time per request:       2088.400 [ms] (mean)
+Time per request:       5.221 [ms] (mean, across all concurrent requests)
+Transfer rate:          22.63 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  2000 2006  10.2   2002    2056
+Waiting:     2000 2005   9.1   2001    2053
+Total:       2000 2006  10.2   2002    2056
+
+Percentage of the requests served within a certain time (ms)
+  50%   2002
+  66%   2003
+  75%   2004
+  80%   2006
+  90%   2021
+  95%   2029
+  98%   2046
+  99%   2048
+ 100%   2056 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   26.155 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    191.17 [#/sec] (mean)
+Time per request:       2092.400 [ms] (mean)
+Time per request:       5.231 [ms] (mean, across all concurrent requests)
+Transfer rate:          19.04 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       2
+Processing:  2000 2015  19.6   2008    2141
+Waiting:     2000 2013  19.0   2006    2140
+Total:       2000 2015  19.6   2008    2141
+
+Percentage of the requests served within a certain time (ms)
+  50%   2008
+  66%   2016
+  75%   2023
+  80%   2028
+  90%   2035
+  95%   2038
+  98%   2094
+  99%   2112
+ 100%   2141 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   39.097 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    127.89 [#/sec] (mean)
+Time per request:       3127.760 [ms] (mean)
+Time per request:       7.819 [ms] (mean, across all concurrent requests)
+Transfer rate:          15.11 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3006  11.0   3002    3075
+Waiting:     3000 3005  10.7   3001    3075
+Total:       3000 3006  11.0   3002    3075
+
+Percentage of the requests served within a certain time (ms)
+  50%   3002
+  66%   3003
+  75%   3004
+  80%   3005
+  90%   3020
+  95%   3026
+  98%   3046
+  99%   3060
+ 100%   3075 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      400
+Time taken for tests:   39.679 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    126.01 [#/sec] (mean)
+Time per request:       3174.320 [ms] (mean)
+Time per request:       7.936 [ms] (mean, across all concurrent requests)
+Transfer rate:          12.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3034  28.0   3033    3099
+Waiting:     3000 3033  27.9   3032    3098
+Total:       3000 3034  28.0   3033    3099
+
+Percentage of the requests served within a certain time (ms)
+  50%   3033
+  66%   3049
+  75%   3058
+  80%   3060
+  90%   3071
+  95%   3083
+  98%   3090
+  99%   3092
+ 100%   3099 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   1.226 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    4078.30 [#/sec] (mean)
+Time per request:       122.600 [ms] (mean)
+Time per request:       0.245 [ms] (mean, across all concurrent requests)
+Transfer rate:          481.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  113  25.7    104     234
+Waiting:      100  112  25.3    103     230
+Total:        100  113  25.7    104     234
+
+Percentage of the requests served within a certain time (ms)
+  50%    104
+  66%    106
+  75%    109
+  80%    111
+  90%    136
+  95%    181
+  98%    213
+  99%    222
+ 100%    234 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   1.191 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    4198.15 [#/sec] (mean)
+Time per request:       119.100 [ms] (mean)
+Time per request:       0.238 [ms] (mean, across all concurrent requests)
+Transfer rate:          418.18 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  111  10.3    107     151
+Waiting:      100  110   9.5    105     147
+Total:        100  111  10.3    107     151
+
+Percentage of the requests served within a certain time (ms)
+  50%    107
+  66%    115
+  75%    118
+  80%    121
+  90%    125
+  95%    132
+  98%    137
+  99%    138
+ 100%    151 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   2.179 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2294.63 [#/sec] (mean)
+Time per request:       217.900 [ms] (mean)
+Time per request:       0.436 [ms] (mean, across all concurrent requests)
+Transfer rate:          271.14 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  208  15.9    203     301
+Waiting:      200  207  15.0    202     299
+Total:        200  208  15.9    203     301
+
+Percentage of the requests served within a certain time (ms)
+  50%    203
+  66%    204
+  75%    205
+  80%    208
+  90%    221
+  95%    246
+  98%    277
+  99%    289
+ 100%    301 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   2.353 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2124.95 [#/sec] (mean)
+Time per request:       235.300 [ms] (mean)
+Time per request:       0.471 [ms] (mean, across all concurrent requests)
+Transfer rate:          211.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  215  18.9    205     319
+Waiting:      200  213  18.4    203     319
+Total:        200  215  19.0    205     319
+
+Percentage of the requests served within a certain time (ms)
+  50%    205
+  66%    218
+  75%    224
+  80%    227
+  90%    238
+  95%    246
+  98%    277
+  99%    299
+ 100%    319 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   5.155 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    969.93 [#/sec] (mean)
+Time per request:       515.500 [ms] (mean)
+Time per request:       1.031 [ms] (mean, across all concurrent requests)
+Transfer rate:          114.61 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   500  508   9.8    504     553
+Waiting:      500  506   7.6    503     541
+Total:        500  508   9.8    504     553
+
+Percentage of the requests served within a certain time (ms)
+  50%    504
+  66%    508
+  75%    510
+  80%    511
+  90%    517
+  95%    535
+  98%    539
+  99%    551
+ 100%    553 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   5.536 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    903.18 [#/sec] (mean)
+Time per request:       553.600 [ms] (mean)
+Time per request:       1.107 [ms] (mean, across all concurrent requests)
+Transfer rate:          89.97 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   500  538  25.1    541     612
+Waiting:      500  535  23.7    538     603
+Total:        500  538  25.1    541     612
+
+Percentage of the requests served within a certain time (ms)
+  50%    541
+  66%    549
+  75%    555
+  80%    561
+  90%    567
+  95%    579
+  98%    585
+  99%    589
+ 100%    612 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   10.295 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    485.67 [#/sec] (mean)
+Time per request:       1029.500 [ms] (mean)
+Time per request:       2.059 [ms] (mean, across all concurrent requests)
+Transfer rate:          57.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1013  25.5   1004    1130
+Waiting:     1000 1012  24.9   1003    1129
+Total:       1000 1014  25.5   1004    1130
+
+Percentage of the requests served within a certain time (ms)
+  50%   1004
+  66%   1006
+  75%   1011
+  80%   1017
+  90%   1035
+  95%   1047
+  98%   1128
+  99%   1129
+ 100%   1130 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   10.210 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    489.72 [#/sec] (mean)
+Time per request:       1021.000 [ms] (mean)
+Time per request:       2.042 [ms] (mean, across all concurrent requests)
+Transfer rate:          48.78 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1009   9.7   1004    1050
+Waiting:     1000 1007   8.9   1003    1046
+Total:       1000 1009   9.7   1004    1050
+
+Percentage of the requests served within a certain time (ms)
+  50%   1004
+  66%   1009
+  75%   1016
+  80%   1018
+  90%   1020
+  95%   1025
+  98%   1040
+  99%   1044
+ 100%   1050 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   20.215 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    247.34 [#/sec] (mean)
+Time per request:       2021.500 [ms] (mean)
+Time per request:       4.043 [ms] (mean, across all concurrent requests)
+Transfer rate:          29.23 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  2000 2013  16.4   2005    2099
+Waiting:     2000 2010  14.9   2003    2085
+Total:       2000 2013  16.4   2005    2099
+
+Percentage of the requests served within a certain time (ms)
+  50%   2005
+  66%   2011
+  75%   2018
+  80%   2021
+  90%   2036
+  95%   2053
+  98%   2061
+  99%   2062
+ 100%   2099 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   20.356 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    245.63 [#/sec] (mean)
+Time per request:       2035.600 [ms] (mean)
+Time per request:       4.071 [ms] (mean, across all concurrent requests)
+Transfer rate:          24.47 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  2000 2023  24.0   2020    2155
+Waiting:     2000 2021  23.4   2017    2155
+Total:       2000 2023  24.0   2020    2155
+
+Percentage of the requests served within a certain time (ms)
+  50%   2020
+  66%   2026
+  75%   2031
+  80%   2036
+  90%   2047
+  95%   2087
+  98%   2104
+  99%   2106
+ 100%   2155 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   30.187 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    165.63 [#/sec] (mean)
+Time per request:       3018.700 [ms] (mean)
+Time per request:       6.037 [ms] (mean, across all concurrent requests)
+Transfer rate:          19.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3009  14.5   3003    3081
+Waiting:     3000 3007  12.7   3002    3074
+Total:       3000 3009  14.5   3003    3081
+
+Percentage of the requests served within a certain time (ms)
+  50%   3003
+  66%   3005
+  75%   3006
+  80%   3008
+  90%   3035
+  95%   3042
+  98%   3059
+  99%   3073
+ 100%   3081 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   30.291 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    165.07 [#/sec] (mean)
+Time per request:       3029.100 [ms] (mean)
+Time per request:       6.058 [ms] (mean, across all concurrent requests)
+Transfer rate:          16.44 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3013  11.7   3007    3040
+Waiting:     3000 3011  10.8   3006    3038
+Total:       3000 3013  11.7   3007    3040
+
+Percentage of the requests served within a certain time (ms)
+  50%   3007
+  66%   3020
+  75%   3024
+  80%   3026
+  90%   3029
+  95%   3033
+  98%   3035
+  99%   3037
+ 100%   3040 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   1.138 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    4393.67 [#/sec] (mean)
+Time per request:       136.560 [ms] (mean)
+Time per request:       0.228 [ms] (mean, across all concurrent requests)
+Transfer rate:          519.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  125  40.1    106     234
+Waiting:      100  123  39.0    104     232
+Total:        100  125  40.1    106     234
+
+Percentage of the requests served within a certain time (ms)
+  50%    106
+  66%    111
+  75%    129
+  80%    139
+  90%    224
+  95%    230
+  98%    231
+  99%    232
+ 100%    234 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   1.010 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    4950.50 [#/sec] (mean)
+Time per request:       121.200 [ms] (mean)
+Time per request:       0.202 [ms] (mean, across all concurrent requests)
+Transfer rate:          493.12 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  111   8.0    109     138
+Waiting:      100  108   7.0    107     137
+Total:        100  111   8.0    109     139
+
+Percentage of the requests served within a certain time (ms)
+  50%    109
+  66%    114
+  75%    117
+  80%    118
+  90%    124
+  95%    126
+  98%    127
+  99%    131
+ 100%    139 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   2.296 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2177.70 [#/sec] (mean)
+Time per request:       275.520 [ms] (mean)
+Time per request:       0.459 [ms] (mean, across all concurrent requests)
+Transfer rate:          257.33 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     495
+Processing:   200  250 106.8    211     585
+Waiting:      200  245  99.3    208     571
+Total:        200  250 107.0    211     699
+
+Percentage of the requests served within a certain time (ms)
+  50%    211
+  66%    216
+  75%    218
+  80%    228
+  90%    334
+  95%    577
+  98%    582
+  99%    584
+ 100%    699 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   2.041 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2449.78 [#/sec] (mean)
+Time per request:       244.920 [ms] (mean)
+Time per request:       0.408 [ms] (mean, across all concurrent requests)
+Transfer rate:          244.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  226  14.0    229     277
+Waiting:      200  223  13.0    226     272
+Total:        200  226  14.0    229     277
+
+Percentage of the requests served within a certain time (ms)
+  50%    229
+  66%    234
+  75%    236
+  80%    237
+  90%    240
+  95%    245
+  98%    257
+  99%    260
+ 100%    277 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   4.790 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1043.84 [#/sec] (mean)
+Time per request:       574.800 [ms] (mean)
+Time per request:       0.958 [ms] (mean, across all concurrent requests)
+Transfer rate:          123.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       2
+Processing:   500  529  39.8    508     641
+Waiting:      500  526  38.7    506     630
+Total:        500  529  39.8    508     641
+
+Percentage of the requests served within a certain time (ms)
+  50%    508
+  66%    522
+  75%    535
+  80%    563
+  90%    618
+  95%    625
+  98%    627
+  99%    629
+ 100%    641 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   4.639 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1077.82 [#/sec] (mean)
+Time per request:       556.680 [ms] (mean)
+Time per request:       0.928 [ms] (mean, across all concurrent requests)
+Transfer rate:          107.36 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   500  513  11.2    510     563
+Waiting:      500  511  10.1    508     558
+Total:        500  513  11.2    511     563
+
+Percentage of the requests served within a certain time (ms)
+  50%    511
+  66%    516
+  75%    519
+  80%    521
+  90%    529
+  95%    534
+  98%    543
+  99%    549
+ 100%    563 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   9.247 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    540.72 [#/sec] (mean)
+Time per request:       1109.640 [ms] (mean)
+Time per request:       1.849 [ms] (mean, across all concurrent requests)
+Transfer rate:          63.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1024  37.9   1008    1138
+Waiting:     1000 1021  37.0   1006    1137
+Total:       1000 1024  37.9   1008    1138
+
+Percentage of the requests served within a certain time (ms)
+  50%   1008
+  66%   1014
+  75%   1018
+  80%   1023
+  90%   1120
+  95%   1127
+  98%   1131
+  99%   1134
+ 100%   1138 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   9.142 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    546.93 [#/sec] (mean)
+Time per request:       1097.040 [ms] (mean)
+Time per request:       1.828 [ms] (mean, across all concurrent requests)
+Transfer rate:          54.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  1000 1013  12.9   1009    1076
+Waiting:     1000 1011  11.8   1007    1070
+Total:       1000 1013  12.9   1009    1076
+
+Percentage of the requests served within a certain time (ms)
+  50%   1009
+  66%   1016
+  75%   1020
+  80%   1023
+  90%   1032
+  95%   1035
+  98%   1049
+  99%   1055
+ 100%   1076 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   18.133 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    275.74 [#/sec] (mean)
+Time per request:       2175.960 [ms] (mean)
+Time per request:       3.627 [ms] (mean, across all concurrent requests)
+Transfer rate:          32.58 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  2000 2012  12.7   2008    2124
+Waiting:     2000 2009  11.0   2006    2122
+Total:       2000 2013  12.7   2008    2124
+
+Percentage of the requests served within a certain time (ms)
+  50%   2008
+  66%   2013
+  75%   2019
+  80%   2021
+  90%   2026
+  95%   2037
+  98%   2050
+  99%   2052
+ 100%   2124 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   18.125 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    275.86 [#/sec] (mean)
+Time per request:       2175.000 [ms] (mean)
+Time per request:       3.625 [ms] (mean, across all concurrent requests)
+Transfer rate:          27.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  2000 2016  12.9   2011    2066
+Waiting:     2000 2013  12.3   2009    2060
+Total:       2000 2016  12.9   2011    2066
+
+Percentage of the requests served within a certain time (ms)
+  50%   2011
+  66%   2020
+  75%   2025
+  80%   2028
+  90%   2034
+  95%   2041
+  98%   2047
+  99%   2050
+ 100%   2066 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   27.098 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    184.52 [#/sec] (mean)
+Time per request:       3251.760 [ms] (mean)
+Time per request:       5.420 [ms] (mean, across all concurrent requests)
+Transfer rate:          21.80 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3013  23.1   3006    3143
+Waiting:     3000 3011  22.0   3004    3140
+Total:       3000 3013  23.1   3006    3143
+
+Percentage of the requests served within a certain time (ms)
+  50%   3006
+  66%   3009
+  75%   3012
+  80%   3014
+  90%   3035
+  95%   3055
+  98%   3127
+  99%   3129
+ 100%   3143 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      600
+Time taken for tests:   27.096 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    184.53 [#/sec] (mean)
+Time per request:       3251.520 [ms] (mean)
+Time per request:       5.419 [ms] (mean, across all concurrent requests)
+Transfer rate:          18.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3015  16.0   3007    3064
+Waiting:     3000 3013  14.8   3005    3061
+Total:       3000 3015  16.0   3007    3064
+
+Percentage of the requests served within a certain time (ms)
+  50%   3007
+  66%   3014
+  75%   3028
+  80%   3033
+  90%   3041
+  95%   3048
+  98%   3051
+  99%   3054
+ 100%   3064 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   1.028 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    4863.81 [#/sec] (mean)
+Time per request:       143.920 [ms] (mean)
+Time per request:       0.206 [ms] (mean, across all concurrent requests)
+Transfer rate:          574.73 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  129  35.5    111     273
+Waiting:      100  126  35.3    109     270
+Total:        100  129  35.5    111     273
+
+Percentage of the requests served within a certain time (ms)
+  50%    111
+  66%    117
+  75%    132
+  80%    142
+  90%    203
+  95%    213
+  98%    230
+  99%    238
+ 100%    273 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   1.378 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    3628.45 [#/sec] (mean)
+Time per request:       192.920 [ms] (mean)
+Time per request:       0.276 [ms] (mean, across all concurrent requests)
+Transfer rate:          361.43 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       4
+Processing:   101  176  43.9    154     271
+Waiting:      101  172  42.7    150     270
+Total:        101  176  43.9    154     271
+
+Percentage of the requests served within a certain time (ms)
+  50%    154
+  66%    199
+  75%    223
+  80%    230
+  90%    237
+  95%    243
+  98%    259
+  99%    264
+ 100%    271 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   2.189 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2284.15 [#/sec] (mean)
+Time per request:       306.460 [ms] (mean)
+Time per request:       0.438 [ms] (mean, across all concurrent requests)
+Transfer rate:          269.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     495
+Processing:   200  265 116.3    211     593
+Waiting:      200  259 107.3    209     579
+Total:        200  266 116.4    211     701
+
+Percentage of the requests served within a certain time (ms)
+  50%    211
+  66%    228
+  75%    242
+  80%    305
+  90%    583
+  95%    587
+  98%    591
+  99%    592
+ 100%    701 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   2.150 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2325.58 [#/sec] (mean)
+Time per request:       301.000 [ms] (mean)
+Time per request:       0.430 [ms] (mean, across all concurrent requests)
+Transfer rate:          231.65 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.2      0     510
+Processing:   200  254 112.7    220     609
+Waiting:      200  249 105.5    217     606
+Total:        200  254 112.9    220     721
+
+Percentage of the requests served within a certain time (ms)
+  50%    220
+  66%    227
+  75%    230
+  80%    234
+  90%    260
+  95%    601
+  98%    603
+  99%    605
+ 100%    721 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   4.206 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1188.78 [#/sec] (mean)
+Time per request:       588.840 [ms] (mean)
+Time per request:       0.841 [ms] (mean, across all concurrent requests)
+Transfer rate:          140.47 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     499
+Processing:   500  519  28.8    508     657
+Waiting:      500  516  27.1    505     654
+Total:        500  519  29.6    508    1002
+
+Percentage of the requests served within a certain time (ms)
+  50%    508
+  66%    511
+  75%    517
+  80%    528
+  90%    547
+  95%    591
+  98%    604
+  99%    644
+ 100%   1002 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   4.274 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1169.86 [#/sec] (mean)
+Time per request:       598.360 [ms] (mean)
+Time per request:       0.855 [ms] (mean, across all concurrent requests)
+Transfer rate:          116.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     504
+Processing:   500  561  47.7    561     709
+Waiting:      500  556  46.2    556     705
+Total:        500  561  48.2    561    1032
+
+Percentage of the requests served within a certain time (ms)
+  50%    561
+  66%    570
+  75%    589
+  80%    593
+  90%    602
+  95%    673
+  98%    697
+  99%    701
+ 100%   1032 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   8.080 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    618.81 [#/sec] (mean)
+Time per request:       1131.200 [ms] (mean)
+Time per request:       1.616 [ms] (mean, across all concurrent requests)
+Transfer rate:          73.12 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     504
+Processing:  1000 1018  31.6   1007    1182
+Waiting:     1000 1015  31.3   1004    1178
+Total:       1000 1018  32.4   1007    1507
+
+Percentage of the requests served within a certain time (ms)
+  50%   1007
+  66%   1008
+  75%   1009
+  80%   1013
+  90%   1045
+  95%   1113
+  98%   1136
+  99%   1136
+ 100%   1507 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   8.280 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    603.86 [#/sec] (mean)
+Time per request:       1159.200 [ms] (mean)
+Time per request:       1.656 [ms] (mean, across all concurrent requests)
+Transfer rate:          60.15 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       6
+Processing:  1000 1047  31.1   1040    1166
+Waiting:     1000 1044  30.8   1038    1164
+Total:       1000 1047  31.1   1040    1166
+
+Percentage of the requests served within a certain time (ms)
+  50%   1040
+  66%   1065
+  75%   1073
+  80%   1076
+  90%   1088
+  95%   1103
+  98%   1108
+  99%   1109
+ 100%   1166 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   16.080 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    310.95 [#/sec] (mean)
+Time per request:       2251.200 [ms] (mean)
+Time per request:       3.216 [ms] (mean, across all concurrent requests)
+Transfer rate:          36.74 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.2      0     509
+Processing:  2000 2018  30.8   2006    2138
+Waiting:     2000 2015  29.8   2004    2134
+Total:       2000 2018  31.6   2007    2512
+
+Percentage of the requests served within a certain time (ms)
+  50%   2007
+  66%   2008
+  75%   2014
+  80%   2025
+  90%   2052
+  95%   2128
+  98%   2134
+  99%   2135
+ 100%   2512 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   16.076 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    311.02 [#/sec] (mean)
+Time per request:       2250.640 [ms] (mean)
+Time per request:       3.215 [ms] (mean, across all concurrent requests)
+Transfer rate:          30.98 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     502
+Processing:  2000 2018  26.9   2008    2162
+Waiting:     2000 2016  26.4   2006    2162
+Total:       2000 2018  27.7   2008    2508
+
+Percentage of the requests served within a certain time (ms)
+  50%   2008
+  66%   2015
+  75%   2019
+  80%   2023
+  90%   2041
+  95%   2103
+  98%   2113
+  99%   2114
+ 100%   2508 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   24.077 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    207.67 [#/sec] (mean)
+Time per request:       3370.780 [ms] (mean)
+Time per request:       4.815 [ms] (mean, across all concurrent requests)
+Transfer rate:          24.54 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3012  17.0   3008    3146
+Waiting:     3000 3009  15.9   3006    3141
+Total:       3000 3012  17.0   3008    3146
+
+Percentage of the requests served within a certain time (ms)
+  50%   3008
+  66%   3010
+  75%   3012
+  80%   3013
+  90%   3023
+  95%   3042
+  98%   3056
+  99%   3131
+ 100%   3146 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      700
+Time taken for tests:   24.319 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    205.60 [#/sec] (mean)
+Time per request:       3404.660 [ms] (mean)
+Time per request:       4.864 [ms] (mean, across all concurrent requests)
+Transfer rate:          20.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       2
+Processing:  3000 3055  30.8   3055    3195
+Waiting:     3000 3052  30.2   3051    3192
+Total:       3000 3055  30.8   3055    3195
+
+Percentage of the requests served within a certain time (ms)
+  50%   3055
+  66%   3074
+  75%   3080
+  80%   3083
+  90%   3096
+  95%   3101
+  98%   3105
+  99%   3107
+ 100%   3195 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   2.496 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2003.21 [#/sec] (mean)
+Time per request:       399.360 [ms] (mean)
+Time per request:       0.499 [ms] (mean, across all concurrent requests)
+Transfer rate:          236.71 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0  12.7      0     568
+Processing:   100  360 279.9    167    1193
+Waiting:      100  321 227.9    160     705
+Total:        100  361 280.3    167    1201
+
+Percentage of the requests served within a certain time (ms)
+  50%    167
+  66%    609
+  75%    621
+  80%    628
+  90%    684
+  95%    699
+  98%   1182
+  99%   1187
+ 100%   1201 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   3.939 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1269.36 [#/sec] (mean)
+Time per request:       630.240 [ms] (mean)
+Time per request:       0.788 [ms] (mean, across all concurrent requests)
+Transfer rate:          126.44 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  17.3      0     504
+Processing:   124  599 220.3    614    1138
+Waiting:      124  512 139.1    556     643
+Total:        124  600 220.9    614    1147
+
+Percentage of the requests served within a certain time (ms)
+  50%    614
+  66%    620
+  75%    621
+  80%    624
+  90%    642
+  95%   1117
+  98%   1127
+  99%   1132
+ 100%   1147 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   1.628 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    3071.25 [#/sec] (mean)
+Time per request:       260.480 [ms] (mean)
+Time per request:       0.326 [ms] (mean, across all concurrent requests)
+Transfer rate:          362.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  238  48.1    209     430
+Waiting:      200  234  46.3    207     429
+Total:        200  238  48.1    209     430
+
+Percentage of the requests served within a certain time (ms)
+  50%    209
+  66%    239
+  75%    256
+  80%    275
+  90%    330
+  95%    346
+  98%    350
+  99%    352
+ 100%    430 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   1.718 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    2910.36 [#/sec] (mean)
+Time per request:       274.880 [ms] (mean)
+Time per request:       0.344 [ms] (mean, across all concurrent requests)
+Transfer rate:          289.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   200  261  26.3    262     383
+Waiting:      200  257  25.1    258     375
+Total:        200  261  26.3    262     383
+
+Percentage of the requests served within a certain time (ms)
+  50%    262
+  66%    275
+  75%    282
+  80%    285
+  90%    291
+  95%    294
+  98%    307
+  99%    311
+ 100%    383 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   3.768 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1326.96 [#/sec] (mean)
+Time per request:       602.880 [ms] (mean)
+Time per request:       0.754 [ms] (mean, across all concurrent requests)
+Transfer rate:          156.80 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   500  536  47.2    512     762
+Waiting:      500  533  46.6    509     756
+Total:        500  536  47.2    512     762
+
+Percentage of the requests served within a certain time (ms)
+  50%    512
+  66%    523
+  75%    543
+  80%    575
+  90%    637
+  95%    638
+  98%    641
+  99%    643
+ 100%    762 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   3.645 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1371.74 [#/sec] (mean)
+Time per request:       583.200 [ms] (mean)
+Time per request:       0.729 [ms] (mean, across all concurrent requests)
+Transfer rate:          136.64 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   500  546  44.5    543     723
+Waiting:      500  543  43.8    540     717
+Total:        500  546  44.5    543     723
+
+Percentage of the requests served within a certain time (ms)
+  50%    543
+  66%    559
+  75%    564
+  80%    568
+  90%    572
+  95%    660
+  98%    697
+  99%    700
+ 100%    723 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   7.265 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    688.23 [#/sec] (mean)
+Time per request:       1162.400 [ms] (mean)
+Time per request:       1.453 [ms] (mean, across all concurrent requests)
+Transfer rate:          81.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     498
+Processing:  1000 1024  39.0   1009    1155
+Waiting:     1000 1021  38.5   1007    1153
+Total:       1000 1024  39.5   1010    1501
+
+Percentage of the requests served within a certain time (ms)
+  50%   1010
+  66%   1015
+  75%   1022
+  80%   1028
+  90%   1055
+  95%   1147
+  98%   1153
+  99%   1154
+ 100%   1501 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   7.142 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    700.08 [#/sec] (mean)
+Time per request:       1142.720 [ms] (mean)
+Time per request:       1.428 [ms] (mean, across all concurrent requests)
+Transfer rate:          69.73 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     501
+Processing:  1000 1022  27.1   1015    1160
+Waiting:     1000 1019  26.5   1012    1155
+Total:       1000 1022  28.0   1015    1504
+
+Percentage of the requests served within a certain time (ms)
+  50%   1015
+  66%   1023
+  75%   1028
+  80%   1031
+  90%   1044
+  95%   1077
+  98%   1117
+  99%   1152
+ 100%   1504 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   14.104 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    354.51 [#/sec] (mean)
+Time per request:       2256.640 [ms] (mean)
+Time per request:       2.821 [ms] (mean, across all concurrent requests)
+Transfer rate:          41.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     503
+Processing:  2000 2014  22.2   2007    2155
+Waiting:     2000 2011  20.8   2005    2150
+Total:       2000 2014  23.3   2007    2509
+
+Percentage of the requests served within a certain time (ms)
+  50%   2007
+  66%   2009
+  75%   2012
+  80%   2016
+  90%   2036
+  95%   2047
+  98%   2059
+  99%   2147
+ 100%   2509 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   14.232 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    351.32 [#/sec] (mean)
+Time per request:       2277.120 [ms] (mean)
+Time per request:       2.846 [ms] (mean, across all concurrent requests)
+Transfer rate:          34.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     494
+Processing:  2000 2040  40.4   2030    2169
+Waiting:     2000 2037  39.3   2026    2165
+Total:       2000 2040  40.9   2030    2501
+
+Percentage of the requests served within a certain time (ms)
+  50%   2030
+  66%   2049
+  75%   2059
+  80%   2066
+  90%   2129
+  95%   2133
+  98%   2138
+  99%   2162
+ 100%   2501 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   21.106 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    236.90 [#/sec] (mean)
+Time per request:       3376.960 [ms] (mean)
+Time per request:       4.221 [ms] (mean, across all concurrent requests)
+Transfer rate:          27.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     499
+Processing:  3000 3018  26.6   3010    3175
+Waiting:     3000 3014  25.0   3007    3169
+Total:       3000 3018  27.5   3010    3502
+
+Percentage of the requests served within a certain time (ms)
+  50%   3010
+  66%   3016
+  75%   3019
+  80%   3021
+  90%   3043
+  95%   3058
+  98%   3148
+  99%   3161
+ 100%   3502 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      800
+Time taken for tests:   21.102 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    236.94 [#/sec] (mean)
+Time per request:       3376.320 [ms] (mean)
+Time per request:       4.220 [ms] (mean, across all concurrent requests)
+Transfer rate:          23.60 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:  3000 3053  44.2   3039    3185
+Waiting:     3000 3049  43.6   3035    3180
+Total:       3000 3053  44.2   3039    3185
+
+Percentage of the requests served within a certain time (ms)
+  50%   3039
+  66%   3069
+  75%   3097
+  80%   3103
+  90%   3118
+  95%   3138
+  98%   3142
+  99%   3144
+ 100%   3185 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   1.245 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    4016.06 [#/sec] (mean)
+Time per request:       224.100 [ms] (mean)
+Time per request:       0.249 [ms] (mean, across all concurrent requests)
+Transfer rate:          474.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       1
+Processing:   100  201  73.0    175     417
+Waiting:      100  195  73.4    168     401
+Total:        100  201  73.0    175     417
+
+Percentage of the requests served within a certain time (ms)
+  50%    175
+  66%    238
+  75%    279
+  80%    284
+  90%    290
+  95%    323
+  98%    344
+  99%    398
+ 100%    417 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   3.866 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1293.33 [#/sec] (mean)
+Time per request:       695.880 [ms] (mean)
+Time per request:       0.773 [ms] (mean, across all concurrent requests)
+Transfer rate:          128.83 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  17.3      0     508
+Processing:   100  668 290.2    634    1158
+Waiting:      100  524 159.9    575     661
+Total:        100  669 290.5    634    1167
+
+Percentage of the requests served within a certain time (ms)
+  50%    634
+  66%    644
+  75%    652
+  80%    664
+  90%   1141
+  95%   1149
+  98%   1155
+  99%   1157
+ 100%   1167 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   3.930 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1272.26 [#/sec] (mean)
+Time per request:       707.400 [ms] (mean)
+Time per request:       0.786 [ms] (mean, across all concurrent requests)
+Transfer rate:          150.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  17.3      0     504
+Processing:   200  677 275.2    627    1144
+Waiting:      200  528 129.1    569     646
+Total:        200  678 275.5    627    1150
+
+Percentage of the requests served within a certain time (ms)
+  50%    627
+  66%    636
+  75%    643
+  80%   1124
+  90%   1135
+  95%   1140
+  98%   1142
+  99%   1143
+ 100%   1150 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   4.417 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1131.99 [#/sec] (mean)
+Time per request:       795.060 [ms] (mean)
+Time per request:       0.883 [ms] (mean, across all concurrent requests)
+Transfer rate:          112.76 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  18.6      0     504
+Processing:   204  737 225.7    634    1145
+Waiting:      204  574  50.4    574     648
+Total:        204  738 226.0    634    1150
+
+Percentage of the requests served within a certain time (ms)
+  50%    634
+  66%    639
+  75%    652
+  80%   1122
+  90%   1131
+  95%   1136
+  98%   1141
+  99%   1143
+ 100%   1150 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   3.432 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1456.88 [#/sec] (mean)
+Time per request:       617.760 [ms] (mean)
+Time per request:       0.686 [ms] (mean, across all concurrent requests)
+Transfer rate:          172.15 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     505
+Processing:   500  547  54.9    516     710
+Waiting:      500  540  52.3    513     702
+Total:        500  547  55.3    517    1022
+
+Percentage of the requests served within a certain time (ms)
+  50%    517
+  66%    543
+  75%    580
+  80%    604
+  90%    650
+  95%    661
+  98%    672
+  99%    675
+ 100%   1022 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   3.578 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1397.43 [#/sec] (mean)
+Time per request:       644.040 [ms] (mean)
+Time per request:       0.716 [ms] (mean, across all concurrent requests)
+Transfer rate:          139.20 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     499
+Processing:   500  549  42.6    533     676
+Waiting:      500  545  40.6    529     669
+Total:        500  549  43.1    533    1004
+
+Percentage of the requests served within a certain time (ms)
+  50%    533
+  66%    569
+  75%    571
+  80%    580
+  90%    612
+  95%    632
+  98%    652
+  99%    660
+ 100%   1004 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   6.619 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    755.40 [#/sec] (mean)
+Time per request:       1191.420 [ms] (mean)
+Time per request:       1.324 [ms] (mean, across all concurrent requests)
+Transfer rate:          89.26 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     496
+Processing:  1000 1019  28.7   1011    1171
+Waiting:     1000 1016  27.8   1007    1167
+Total:       1000 1019  29.5   1011    1500
+
+Percentage of the requests served within a certain time (ms)
+  50%   1011
+  66%   1015
+  75%   1018
+  80%   1024
+  90%   1045
+  95%   1053
+  98%   1153
+  99%   1163
+ 100%   1500 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   6.611 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    756.32 [#/sec] (mean)
+Time per request:       1189.980 [ms] (mean)
+Time per request:       1.322 [ms] (mean, across all concurrent requests)
+Transfer rate:          75.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     493
+Processing:  1000 1017  27.0   1011    1193
+Waiting:     1000 1014  26.0   1008    1184
+Total:       1000 1017  27.9   1011    1501
+
+Percentage of the requests served within a certain time (ms)
+  50%   1011
+  66%   1016
+  75%   1019
+  80%   1021
+  90%   1030
+  95%   1042
+  98%   1161
+  99%   1175
+ 100%   1501 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   12.606 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    396.64 [#/sec] (mean)
+Time per request:       2269.080 [ms] (mean)
+Time per request:       2.521 [ms] (mean, across all concurrent requests)
+Transfer rate:          46.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     495
+Processing:  2000 2014  25.6   2006    2140
+Waiting:     2000 2011  24.7   2004    2135
+Total:       2000 2014  26.5   2006    2501
+
+Percentage of the requests served within a certain time (ms)
+  50%   2006
+  66%   2009
+  75%   2010
+  80%   2012
+  90%   2029
+  95%   2060
+  98%   2128
+  99%   2134
+ 100%   2501 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   12.638 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    395.63 [#/sec] (mean)
+Time per request:       2274.840 [ms] (mean)
+Time per request:       2.528 [ms] (mean, across all concurrent requests)
+Transfer rate:          39.41 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.2      0     510
+Processing:  2000 2022  23.8   2017    2136
+Waiting:     2000 2019  23.2   2013    2129
+Total:       2000 2022  24.8   2017    2514
+
+Percentage of the requests served within a certain time (ms)
+  50%   2017
+  66%   2022
+  75%   2026
+  80%   2028
+  90%   2041
+  95%   2055
+  98%   2120
+  99%   2126
+ 100%   2514 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   18.214 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    274.51 [#/sec] (mean)
+Time per request:       3278.520 [ms] (mean)
+Time per request:       3.643 [ms] (mean, across all concurrent requests)
+Transfer rate:          32.44 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     498
+Processing:  3000 3019  26.0   3011    3170
+Waiting:     3000 3015  24.4   3007    3161
+Total:       3000 3019  26.9   3011    3500
+
+Percentage of the requests served within a certain time (ms)
+  50%   3011
+  66%   3016
+  75%   3019
+  80%   3022
+  90%   3048
+  95%   3056
+  98%   3140
+  99%   3155
+ 100%   3500 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      900
+Time taken for tests:   18.620 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    268.53 [#/sec] (mean)
+Time per request:       3351.600 [ms] (mean)
+Time per request:       3.724 [ms] (mean, across all concurrent requests)
+Transfer rate:          26.75 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     504
+Processing:  3000 3015  22.5   3009    3128
+Waiting:     3000 3012  21.5   3006    3123
+Total:       3000 3015  23.6   3009    3507
+
+Percentage of the requests served within a certain time (ms)
+  50%   3009
+  66%   3012
+  75%   3015
+  80%   3018
+  90%   3032
+  95%   3042
+  98%   3116
+  99%   3122
+ 100%   3507 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   4.361 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1146.53 [#/sec] (mean)
+Time per request:       872.200 [ms] (mean)
+Time per request:       0.872 [ms] (mean, across all concurrent requests)
+Transfer rate:          135.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  18.6      0     506
+Processing:   100  784 271.1    658    1175
+Waiting:      100  582  96.3    596     671
+Total:        100  785 271.2    658    1182
+
+Percentage of the requests served within a certain time (ms)
+  50%    658
+  66%    672
+  75%   1142
+  80%   1151
+  90%   1159
+  95%   1163
+  98%   1166
+  99%   1172
+ 100%   1182 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=100
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   4.369 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1144.43 [#/sec] (mean)
+Time per request:       873.800 [ms] (mean)
+Time per request:       0.874 [ms] (mean, across all concurrent requests)
+Transfer rate:          114.00 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  18.7      0     508
+Processing:   100  813 260.7    665    1184
+Waiting:      100  594  64.8    596     682
+Total:        100  814 260.7    665    1192
+
+Percentage of the requests served within a certain time (ms)
+  50%    665
+  66%   1134
+  75%   1149
+  80%   1154
+  90%   1167
+  95%   1177
+  98%   1180
+  99%   1181
+ 100%   1192 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   4.477 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1116.82 [#/sec] (mean)
+Time per request:       895.400 [ms] (mean)
+Time per request:       0.895 [ms] (mean, across all concurrent requests)
+Transfer rate:          131.97 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  18.8      0     506
+Processing:   200  817 255.5    664    1178
+Waiting:      200  596  52.2    596     676
+Total:        200  817 255.6    664    1185
+
+Percentage of the requests served within a certain time (ms)
+  50%    664
+  66%   1139
+  75%   1152
+  80%   1157
+  90%   1166
+  95%   1173
+  98%   1176
+  99%   1177
+ 100%   1185 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=200
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   4.436 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1127.14 [#/sec] (mean)
+Time per request:       887.200 [ms] (mean)
+Time per request:       0.887 [ms] (mean, across all concurrent requests)
+Transfer rate:          112.27 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  18.7      0     507
+Processing:   200  811 256.9    655    1172
+Waiting:      200  589  56.9    591     676
+Total:        200  812 257.0    655    1179
+
+Percentage of the requests served within a certain time (ms)
+  50%    655
+  66%   1131
+  75%   1142
+  80%   1146
+  90%   1151
+  95%   1160
+  98%   1169
+  99%   1170
+ 100%   1179 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   4.261 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1173.43 [#/sec] (mean)
+Time per request:       852.200 [ms] (mean)
+Time per request:       0.852 [ms] (mean, across all concurrent requests)
+Transfer rate:          138.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  17.4      0     509
+Processing:   500  739 211.6    653    1179
+Waiting:      500  655 174.2    602    1159
+Total:        500  739 212.0    653    1188
+
+Percentage of the requests served within a certain time (ms)
+  50%    653
+  66%    658
+  75%    665
+  80%   1125
+  90%   1157
+  95%   1164
+  98%   1170
+  99%   1172
+ 100%   1188 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=500
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   4.272 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    1170.41 [#/sec] (mean)
+Time per request:       854.400 [ms] (mean)
+Time per request:       0.854 [ms] (mean, across all concurrent requests)
+Transfer rate:          116.58 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  17.4      0     506
+Processing:   500  727 202.2    654    1206
+Waiting:      500  628 125.2    607    1201
+Total:        500  727 202.7    654    1206
+
+Percentage of the requests served within a certain time (ms)
+  50%    654
+  66%    663
+  75%    671
+  80%    675
+  90%   1160
+  95%   1170
+  98%   1185
+  99%   1193
+ 100%   1206 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   5.905 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    846.74 [#/sec] (mean)
+Time per request:       1181.000 [ms] (mean)
+Time per request:       1.181 [ms] (mean, across all concurrent requests)
+Transfer rate:          100.05 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     502
+Processing:  1000 1017  24.5   1012    1181
+Waiting:     1000 1013  23.5   1007    1176
+Total:       1000 1017  25.4   1012    1506
+
+Percentage of the requests served within a certain time (ms)
+  50%   1012
+  66%   1015
+  75%   1016
+  80%   1018
+  90%   1041
+  95%   1056
+  98%   1070
+  99%   1171
+ 100%   1506 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=1000
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   5.763 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    867.60 [#/sec] (mean)
+Time per request:       1152.600 [ms] (mean)
+Time per request:       1.153 [ms] (mean, across all concurrent requests)
+Transfer rate:          86.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     494
+Processing:  1000 1021  23.0   1017    1131
+Waiting:     1000 1017  21.9   1011    1122
+Total:       1000 1022  23.9   1017    1498
+
+Percentage of the requests served within a certain time (ms)
+  50%   1017
+  66%   1023
+  75%   1028
+  80%   1029
+  90%   1044
+  95%   1055
+  98%   1114
+  99%   1119
+ 100%   1498 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   11.170 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    447.63 [#/sec] (mean)
+Time per request:       2234.000 [ms] (mean)
+Time per request:       2.234 [ms] (mean, across all concurrent requests)
+Transfer rate:          52.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0  10.1      0     508
+Processing:  2000 2025  39.7   2011    2189
+Waiting:     2000 2021  38.7   2007    2182
+Total:       2000 2025  40.9   2011    2516
+
+Percentage of the requests served within a certain time (ms)
+  50%   2011
+  66%   2013
+  75%   2016
+  80%   2027
+  90%   2067
+  95%   2133
+  98%   2166
+  99%   2167
+ 100%   2516 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=2000
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   10.702 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    467.20 [#/sec] (mean)
+Time per request:       2140.400 [ms] (mean)
+Time per request:       2.140 [ms] (mean, across all concurrent requests)
+Transfer rate:          46.54 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     499
+Processing:  2000 2039  40.7   2020    2204
+Waiting:     2000 2034  39.3   2014    2203
+Total:       2000 2039  41.2   2020    2503
+
+Percentage of the requests served within a certain time (ms)
+  50%   2020
+  66%   2039
+  75%   2056
+  80%   2071
+  90%   2118
+  95%   2124
+  98%   2128
+  99%   2129
+ 100%   2503 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/sync.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   15.725 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      605000 bytes
+HTML transferred:       0 bytes
+Requests per second:    317.97 [#/sec] (mean)
+Time per request:       3145.000 [ms] (mean)
+Time per request:       3.145 [ms] (mean, across all concurrent requests)
+Transfer rate:          37.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.0      0     496
+Processing:  3000 3024  38.6   3010    3218
+Waiting:     3000 3020  37.4   3007    3206
+Total:       3000 3024  39.1   3011    3500
+
+Percentage of the requests served within a certain time (ms)
+  50%   3011
+  66%   3017
+  75%   3022
+  80%   3024
+  90%   3082
+  95%   3133
+  98%   3166
+  99%   3168
+ 100%   3500 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /servletcoroutine-0.0.1-SNAPSHOT/kilim.html?sleeptime=3000
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   15.886 seconds
+Complete requests:      5000
+Failed requests:        0
+Write errors:           0
+Total transferred:      510000 bytes
+HTML transferred:       0 bytes
+Requests per second:    314.74 [#/sec] (mean)
+Time per request:       3177.200 [ms] (mean)
+Time per request:       3.177 [ms] (mean, across all concurrent requests)
+Transfer rate:          31.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   7.1      0     499
+Processing:  3000 3026  32.0   3018    3154
+Waiting:     3000 3022  30.9   3014    3147
+Total:       3000 3026  32.7   3018    3503
+
+Percentage of the requests served within a certain time (ms)
+  50%   3018
+  66%   3026
+  75%   3030
+  80%   3033
+  90%   3043
+  95%   3125
+  98%   3135
+  99%   3137
+ 100%   3503 (longest request)
