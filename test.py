@@ -8,15 +8,15 @@ def setValue(name, concurrentnum, sleeptime, qps, rt):
     dict[name]["%d:%d:rt" % (concurrentnum, sleeptime)] = rt
 
 #init
-n = 500
+n = 5000
 urllist = [
 'http://localhost:8080/servletcoroutine-0.0.1-SNAPSHOT/sync.html',
 'http://localhost:8080/servletcoroutine-0.0.1-SNAPSHOT/kilim.html'
 ]
 timelist = [100, 200, 500, 1000, 2000, 3000]
 pattern_name = re.compile(r'(\w*).html')
-pattern_qps = re.compile(r'(\d+\d+) [#/sec]')
-pattern_rt = re.compile(r'(\d+\d+) [ms]')
+pattern_qps = re.compile(r'(\d+.\d+) \[#/sec\]')
+pattern_rt = re.compile(r'(\d+.\d+) \[ms\]')
 
 file_object = open('log.txt', 'w')
 
@@ -29,13 +29,14 @@ for i in range(1, 11):
             cmd = 'ab -c %d -n %d %s?sleeptime=%d' % (concurrent, n, url, time)
             print cmd
             tmp = "".join(os.popen(cmd).readlines())
-            #print tmp
+            if (len(tmp) < 100): continue
+            print tmp
             file_object.write(tmp)
-            name =  pattern_name.search(tmp).group(1)
-            qps =  pattern_qps.search(tmp).group(1)
-            rt =  pattern_rt.search(tmp).group(1)
+            name = pattern_name.search(tmp).group(1)
+            qps = pattern_qps.search(tmp).group(1)
+            rt = pattern_rt.search(tmp).group(1)
+            print qps, rt
             setValue(name, concurrent, time, qps, rt)
-            #print dict
 file_object.close()
             
 for key in dict:
