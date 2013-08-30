@@ -23,9 +23,7 @@ public class SyncLockController extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
         try {
         	String timestr = req.getParameter("sleeptime");
-        	int time;
-        	if (timestr == null) time = 1000;
-        	else time = Integer.parseInt(timestr);
+        	int time = (timestr == null)? 1000 : Integer.parseInt(timestr);
             Thread.sleep(time);
             System.out.println("sync" + (++count));
         } catch (InterruptedException e) {
